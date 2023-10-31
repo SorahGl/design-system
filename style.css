@@ -1,0 +1,67 @@
+*HEADING*/
+* {
+  text-align: center;
+  box-sizing: border-box;
+}
+h2 {
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+/*COLOR SECTION*/
+
+.color-section p {
+  display: inline-block;
+  height: 125px;
+  width: 200px;
+  margin: 5px;
+  padding: 40px;
+}
+#dark-purple {
+  background-color: rgb(150, 0, 150);
+}
+#light-purple {
+  background-color: rgb(230, 0, 230);
+}
+#grey {
+  background-color: rgb(200, 200, 200);
+}
+#white {
+  background-color: rgb(255, 255, 255);
+  border: 1px dotted black;
+  padding: 38px
+}
+
+/*FONTS SECTION*/
+
+.font-section h3 {
+  color: rgb(150, 0, 150);
+}
+.font-section p {
+  color: rgb(150, 150, 150);
+}
+.h {
+  font-family: helvetica, sans-serif;
+}
+.g {
+  font-family: georgia, serif;
+}
+.s {
+  font-family: sans-serif;
+}
+
+/*TEXT SECTION*/
+.fixme {
+  border: 0px solid white;
+}
+.text-section h1, .fixme, .text-section h3 {
+  text-decoration: underline;
+  text-align: center;
+
+}
+.realhead {
+   text-decoration: none;
+}
+.text-section li {
+  text-align: left;
+}

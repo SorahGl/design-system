@@ -6,12 +6,23 @@
 h2 {
   border-top: 5px solid black;
   border-bottom: 5px solid black;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+
 }
 
 /*COLOR SECTION*/
-
+.color-section ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .color-section p {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 125px;
   width: 200px;
   margin: 5px;
@@ -33,12 +44,18 @@ h2 {
 }
 
 /*FONTS SECTION*/
+.font-section h3, .font-section p{
+    display: flex;
+    justify-content: center;
+}
 
 .font-section h3 {
   color: rgb(150, 0, 150);
+  margin-top: 20px
 }
 .font-section p {
   color: rgb(150, 150, 150);
+  margin-bottom: 30px;
 }
 .h {
   font-family: helvetica, sans-serif;
@@ -51,17 +68,35 @@ h2 {
 }
 
 /*TEXT SECTION*/
-.fixme {
-  border: 0px solid white;
+.text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.text-section h1, .fixme, .text-section h3 {
-  text-decoration: underline;
-  text-align: center;
 
+.text-section h3 {
+    text-decoration: underline;
 }
-.realhead {
-   text-decoration: none;
+
+#main {
+    font-size: 25px;
+    font-weight: 700px;
+    font-family: Helvetica, sans-serif;
 }
-.text-section li {
-  text-align: left;
+
+#sub {
+    font-size: 18px;
+    font-weight: 550px;
+    font-family: sans-serif;
+}
+
+#par {
+    font-size: 10px;
+    font-weight: 400px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer {
+    margin-bottom: 50px;
 }
